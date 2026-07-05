@@ -1,0 +1,86 @@
+{
+    "player": {
+        "name": "Hero",
+        "x": 1,
+        "y": 1,
+        "hp": 100,
+        "max_hp": 100,
+        "level": 1,
+        "exp": 0,
+        "need_exp": 100,
+        "gold": 0,
+        "atk": 10,
+        "defense": 2,
+        "critical": 5,
+        "dodge": 5
+    },
+
+    "inventory": {
+        "weapon": null,
+        "armor": null,
+        "potions": 0,
+        "items": []
+    },
+
+    "quests": {
+        "first_kill": {
+            "name": "첫 사냥",
+            "description": "몬스터 1마리 처치",
+            "target": 1,
+            "progress": 0,
+            "reward_exp": 20,
+            "reward_gold": 50,
+            "completed": false
+        },
+
+        "monster_hunter": {
+            "name": "몬스터 헌터",
+            "description": "몬스터 10마리 처치",
+            "target": 10,
+            "progress": 0,
+            "reward_exp": 100,
+            "reward_gold": 150,
+            "completed": false
+        },
+
+        "slayer": {
+            "name": "슬레이어",
+            "description": "몬스터 50마리 처치",
+            "target": 50,
+            "progress": 0,
+            "reward_exp": 500,
+            "reward_gold": 500,
+            "completed": false
+        },
+
+        "rich": {
+            "name": "부자",
+            "description": "골드 1000 모으기",
+            "target": 1000,
+            "progress": 0,
+            "reward_exp": 300,
+            "reward_gold": 100,
+            "completed": false
+        },
+
+        "level5": {
+            "name": "강해지는 중",
+            "description": "레벨 5 달성",
+            "target": 5,
+            "progress": 1,
+            "reward_exp": 300,
+            "reward_gold": 200,
+            "completed": false
+        },
+
+        "boss": {
+            "name": "최후의 적",
+            "description": "보스 처치",
+            "target": 1,
+            "progress": 0,
+            "reward_exp": 1000,
+            "reward_gold": 1000,
+            "completed": false
+        }
+    }
+}
