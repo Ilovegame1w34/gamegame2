@@ -64,7 +64,7 @@ class MainMenu:
     # ---------------------------------
     def load_game(self):
 
-        print("\n💾 이어하기는 v0.4.x에서 구현됩니다.")
+        print("\n💾 이어하기는 v0.5.0에서 구현 됩니다.")
         input("\n엔터를 누르세요...")
 
     # ---------------------------------
@@ -120,11 +120,11 @@ class MainMenu:
         print("========== CREDITS ==========\n")
 
         print("TerminalLegends")
-        print("Version : 0.4.0")
+        print("Version : 0.4.1")
         print()
-        print("Developer : You")
-        print("Programming : Python")
-        print("Engine : Console")
+        print("Developer : hoyoon ki")
+        print("Programming : hoyoon ki")
+        print("Engine : Terminal")
 
         input("\n엔터를 누르세요...")
 
