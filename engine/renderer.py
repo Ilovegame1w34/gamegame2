@@ -36,7 +36,7 @@ class Renderer:
         end_y = min(world.height, player.y + half_h + 1)
 
         print("=" * 55)
-        print("         TerminalLegends v0.3.3-1")
+        print("         TerminalLegends v0.4.1")
         print("=" * 55)
 
         for y in range(start_y, end_y):

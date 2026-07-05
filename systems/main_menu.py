@@ -134,7 +134,7 @@ class MainMenu:
     def logo(self):
 
         print("=" * 50)
-        print("        TerminalLegends v0.4.0")
+        print("        TerminalLegends v0.4.1")
         print("=" * 50)
         print()
         print("████████╗██████╗ ")
